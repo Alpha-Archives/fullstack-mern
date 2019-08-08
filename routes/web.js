@@ -3,7 +3,6 @@ const express = require("express");
 const registerController = require("../controllers/register");
 const loginController = require("../controllers/login");
 const homeController = require("../controllers/home");
-const storageController = require("../controllers/storage");
 
 const router = express.Router();
 
