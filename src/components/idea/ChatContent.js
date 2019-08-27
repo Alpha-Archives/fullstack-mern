@@ -16,7 +16,7 @@ class ChatContent extends Component {
                                         <span>3 days ago</span>
                                     </div>
                                     <div className="chat-item-body">
-                                        <p>Roger that boss! <a href="#">@Ravi</a> Donec quis ante ut felis tincidunt
+                                        <p>Roger that boss! <a href={'/'}>@Ravi</a> Donec quis ante ut felis tincidunt
                                             blandit. ðŸ”¥</p>
                                     </div>
                                 </div>
@@ -30,8 +30,8 @@ class ChatContent extends Component {
                                         <span>2 days ago</span>
                                     </div>
                                     <div className="chat-item-body">
-                                        <p>Can't wait! <a href="#">@David</a> Curabitur nec massa ultrices,
-                                            consequat erat sit amet, luctus justo. <a href="#"> Meeting</a>?</p>
+                                        <p>Can't wait! <a href={'/'}>@David</a> Curabitur nec massa ultrices,
+                                            consequat erat sit amet, luctus justo. <a href={'/'}> Meeting</a>?</p>
                                     </div>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@ class ChatContent extends Component {
                                             <i className={"fas fa-file"}/>
                                         </div>
                                         <div className="media-body">
-                                            <a href="#" className="">questionnaire-draft.doc</a>
+                                            <a href={'/'} className="">questionnaire-draft.doc</a>
                                             <span>24kb Document</span>
                                         </div>
                                     </div>

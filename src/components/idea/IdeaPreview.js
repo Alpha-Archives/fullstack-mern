@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import Nav from "../dashboard/Nav";
 import Sidebar from "../dashboard/Sidebar";
-import ChatContent from "./ChatContent";
 import DocumentContent from "./DocumentContent";
 import IdeaTimeline from "./IdeaTimeline";
 
@@ -71,7 +70,7 @@ class IdeaPreview extends Component {
                                         <hr/>
                                         <div className={"row"}>
                                             <div className={"col-md-6"}>
-                                                <button className={"btn btn-sm float-right"}>➕</button>
+                                                <button className={"btn btn-sm float-right"}> <span role="img" >➕</span> </button>
                                                 <p className={"lead"}>Collaborators:
                                                     <ol>
                                                         <li>Lorem ipsum dolor sit amet</li>
@@ -93,8 +92,7 @@ class IdeaPreview extends Component {
                             <div className="col-xl-3 col-lg-12 col-md-6 col-sm-12 col-12">
                                 <div className="card">
                                     <h5 className="card-header">Activities</h5>
-                                    <div className="card-body p-0">
-                                        {/*<ChatContent/>*/}
+                                    <div className="card-body p-0">                                        
                                         <IdeaTimeline/>
                                     </div>
                                 </div>

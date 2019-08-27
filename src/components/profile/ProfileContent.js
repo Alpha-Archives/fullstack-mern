@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Link from 'react-router-dom';
 
 class ProfileContent extends Component {
 
@@ -17,8 +18,8 @@ class ProfileContent extends Component {
                                     <div className="page-breadcrumb">
                                         <nav aria-label="breadcrumb">
                                             <ol className="breadcrumb">
-                                                <li className="breadcrumb-item"><a href={"/"}
-                                                                                   className="breadcrumb-link">Dashboard</a>
+                                                <li className="breadcrumb-item">
+                                                    <a href={"/dashboard"} className="breadcrumb-link">Dashboard</a>
                                                 </li>
                                                 <li className="breadcrumb-item active" aria-current="page">My Profile
                                                 </li>
@@ -60,16 +61,16 @@ class ProfileContent extends Component {
                                         <h3 className="font-16">Social Channels</h3>
                                         <div className="">
                                             <ul className="mb-0 list-unstyled">
-                                                <li className="mb-1"><a href="#"><i
+                                                <li className="mb-1"><a href={'#'}><i
                                                     className={"fab fa-fw fa-facebook-square mr-1 facebook-color"}/>fb.me/james</a>
                                                 </li>
-                                                <li className="mb-1"><a href="#"><i
+                                                <li className="mb-1"><a href={'#'}><i
                                                     className={"fab fa-fw fa-twitter-square mr-1 twitter-color"}/>twitter.com/james</a>
                                                 </li>
-                                                <li className="mb-1"><a href="#"><i
+                                                <li className="mb-1"><a href={'#'}><i
                                                     className={"fab fa-fw fa-instagram mr-1 instagram-color"}/>instagram.com/james</a>
                                                 </li>
-                                                <li className="mb-1"><a href="#"><i
+                                                <li className="mb-1"><a href={'#'}><i
                                                     className={"fas fa-fw fa-rss-square mr-1 rss-color"}/>james.com/blog</a>
                                                 </li>
                                             </ul>
@@ -78,9 +79,9 @@ class ProfileContent extends Component {
                                     <div className="card-body border-top">
                                         <h3 className="font-16">Category</h3>
                                         <div>
-                                            <a href="#" className="badge badge-light mr-1">Fitness</a>
-                                            <a href="#" className="badge badge-light mr-1">Life Style</a>
-                                            <a href="#" className="badge badge-light mr-1">Gym</a>
+                                            <a href={'#'} className="badge badge-light mr-1">Fitness</a>
+                                            <a href={'#'} className="badge badge-light mr-1">Life Style</a>
+                                            <a href={'#'} className="badge badge-light mr-1">Gym</a>
                                         </div>
                                     </div>
                                 </div>
@@ -289,7 +290,7 @@ class ProfileContent extends Component {
                                                                 <li>Monthly progress report</li>
                                                                 <li>1 Million Followers</li>
                                                             </ul>
-                                                            <a href="#"
+                                                            <a href={'#'}
                                                                className="btn btn-outline-secondary btn-block btn-lg">Get
                                                                 Started</a>
                                                         </div>
@@ -319,7 +320,7 @@ class ProfileContent extends Component {
                                                                 <li>5 Millions Followers</li>
                                                                 <li>Growth Result</li>
                                                             </ul>
-                                                            <a href="#" className="btn btn-secondary btn-block btn-lg">Get
+                                                            <a href={'#'} className="btn btn-secondary btn-block btn-lg">Get
                                                                 Started</a>
                                                         </div>
                                                     </div>
@@ -346,7 +347,7 @@ class ProfileContent extends Component {
                                                                 <li>Monthly progress report & Growth Result</li>
                                                                 <li>4 Blog Post & 6 Social Post</li>
                                                             </ul>
-                                                            <a href="#" className="btn btn-secondary btn-block btn-lg">Contact
+                                                            <a href={'#'} className="btn btn-secondary btn-block btn-lg">Contact
                                                                 us</a>
                                                         </div>
                                                     </div>
@@ -430,14 +431,14 @@ class ProfileContent extends Component {
                                             <nav aria-label="Page navigation example">
                                                 <ul className="pagination">
                                                     <li className="page-item"><a className="page-link"
-                                                                                 href="#">Previous</a></li>
-                                                    <li className="page-item"><a className="page-link" href="#">1</a>
+                                                                                 href={'#'}>Previous</a></li>
+                                                    <li className="page-item"><a className="page-link" href={'/1'}>1</a>
                                                     </li>
                                                     <li className="page-item active"><a className="page-link "
-                                                                                        href="#">2</a></li>
-                                                    <li className="page-item"><a className="page-link" href="#">3</a>
+                                                                                        href={'/2'}>2</a></li>
+                                                    <li className="page-item"><a className="page-link" href={'/3'}>3</a>
                                                     </li>
-                                                    <li className="page-item"><a className="page-link" href="#">Next</a>
+                                                    <li className="page-item"><a className="page-link" href={'#'}>Next</a>
                                                     </li>
                                                 </ul>
                                             </nav>
