@@ -5,7 +5,7 @@ class Nav extends Component {
         return (
             <div className="dashboard-header">
                 <nav className="navbar navbar-expand-lg bg-white fixed-top">
-                    <a className="navbar-brand" href={"/dashboard"}>Cool ✔ Idea</a>
+                    <a className="navbar-brand" href={"/dashboard"}>CMS</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
