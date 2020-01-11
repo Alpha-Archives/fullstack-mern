@@ -1,6 +1,6 @@
 {
   "name": "Idea",
-  "description": "",
+  "description": "Elegant Ideation Web App",
   "repository": "https://github.com/alphaolomi/idea-in-node",
   "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
   "image": "heroku/nodejs"

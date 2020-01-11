@@ -1,6 +1,7 @@
 {
   "name": "idea-in-node",
-  "version": "0.0.0",
+  "version": "0.0.2",
+  "author": "Alpha Olomi <hello@alphaolomi.com>",
   "private": true,
   "main": "index.js",
   "scripts": {
@@ -10,7 +11,7 @@
     "test": "node test.js"
   },
   "engines": {
-    "node": "10.x"
+    "node": "12.x"
   },
   "dependencies": {
     "cookie-parser": "1.4.4",
@@ -32,5 +33,5 @@
     "type": "git",
     "url": "https://github.com/alphaolomi/idea-in-node"
   },
-  "license": "MIT"
+  "license": "Apache License"
 }
