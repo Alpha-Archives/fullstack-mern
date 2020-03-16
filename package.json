@@ -12,7 +12,7 @@
     "test": "cross-env NODE_ENV=test jest --testTimeout=10000"
   },
   "dependencies": {
-    "cookie-parser": "1.4.4",
+    "cookie-parser": "1.4.5",
     "debug": "4.1.1",
     "ejs": "3.0.1",
     "express": "4.17.1",
@@ -26,9 +26,9 @@
     "cross-env": "^7.0.0",
     "jest": "^25.0.0",
     "nodemon": "2.0.2",
-    "request": "2.88.0",
+    "request": "2.88.2",
     "supertest": "^4.0.2",
-    "tape": "4.13.0"
+    "tape": "4.13.2"
   },
   "repository": {
     "type": "git",
