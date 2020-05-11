@@ -14,9 +14,9 @@
   "dependencies": {
     "cookie-parser": "1.4.5",
     "debug": "4.1.1",
-    "ejs": "3.0.2",
+    "ejs": "3.1.2",
     "express": "4.17.1",
-    "express-session": "1.17.0",
+    "express-session": "1.17.1",
     "http-errors": "1.7.3",
     "method-override": "3.0.0",
     "morgan": "1.10.0",
@@ -24,11 +24,11 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.0",
-    "jest": "^25.0.0",
-    "nodemon": "2.0.2",
+    "jest": "^26.0.0",
+    "nodemon": "2.0.3",
     "request": "2.88.2",
     "supertest": "^4.0.2",
-    "tape": "4.13.2"
+    "tape": "5.0.0"
   },
   "repository": {
     "type": "git",
